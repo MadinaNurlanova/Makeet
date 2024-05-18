@@ -1,0 +1,224 @@
+*{
+    margin: auto;
+}
+body{
+margin: 0;
+background-image: url(/assets/Rectangle\ 3.svg);
+width: 100%;
+background-repeat: no-repeat;
+background-position-x: center;
+background-size: cover;
+height: 1000px;
+background-color: black;
+}
+.container{
+width: 100%;
+max-width: 1280px;
+}
+.header{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: antiquewhite;
+}
+.logo{
+    display: flex;
+    gap: 14px;
+}
+.BRAND{
+    color: white;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+button{
+    cursor: pointer;
+}
+.imageButton{
+    border-radius: 8px;
+    border-color: gold;
+    width: 210px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 8px 16px;
+    height: 44px;
+    cursor: pointer;
+    
+}
+.FirstPage{
+    width: 1280px;
+   height: 634px;
+    left: 320px;
+}
+.brandphoto{
+    margin-top: 150px;
+    display: flex;
+    z-index: 1;
+}
+.texttitle{
+    margin-left: 10px;
+    max-width: 700px;
+    max-height: 250px;
+    gap: 16px;
+}
+.title{
+    color: white;
+    margin-top: 100px;
+    font-size: 56px;    
+}
+.subtitle{
+    color: white;
+    margin-top: 25px;
+    font-size: 24px;
+    margin-left: 8px;
+   
+}
+.Button{
+    margin-top: 60px;
+    display: flex;
+}
+.call{
+    width: 456px;
+    height: 56px;
+    border-radius: 10px;
+    background-color:  #F3A324;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;   
+}
+.CatalogButton{
+    margin-left: 13px;
+    background-color: black;
+    color: aliceblue;
+    width: 266px;
+    height: 56px;
+    border-radius: 10px;
+    border-color: orange;
+    font-size: 16px;
+    cursor: pointer;
+}
+.CatalogButton:hover{
+    background-color: orange;
+}
+.hoodie{
+   display: flex;
+   float: right;
+   width: 414px;
+   z-index: 2;
+}
+.SocialMedia{
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: gray;
+    padding: 16px;
+    gap: 15px;
+    position: absolute;
+    left: 2px;
+    top: 450px;
+}
+.ThreeObj{
+    margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    gap: 20px;
+    color: aliceblue;
+}
+.Hoodies{
+    display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.AboutHoodie{
+	text-align: center;
+    border: 2px solid ;
+    padding: 20px;
+    border-radius: 8px; 
+	width: 400px;
+	height: 570px;
+}
+.Material{
+    margin-top: 10px;
+    text-align: left;
+    width: 300px; 
+    color: gray;
+}
+.Size{
+    margin-top: 10px;
+}
+.MakeCall{
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    background-color: #F3A324;
+    cursor: pointer;
+}
+.MakeCall:hover{
+    background-color: gold;
+}
+.table{
+    color: black;
+    width: 1000px;
+    height: 100px;
+    border: 2px solid;
+    border-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:lightgray;
+}
+.TitleTable{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;  
+}
+.tableWrapper {
+    margin-top: 20px;
+    width: 1280px;
+    height: 417px;
+    background-color: rgb(15, 14, 14);
+    color: white;
+    padding: 30px 30px;
+    border-spacing: 30px;
+    border: 2px solid grey;
+    border-radius: 11px;
+}
+td, th {
+    padding: 10px;
+}
+.footerNav {
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+     font-size: 12px;
+     margin: 0;
+}
+.footerTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+.footerTop {
+     display: flex;  
+     justify-content: space-between;
+}
+.footerBtn {
+    margin: 0;
+}
+.footerContent {
+    display: flex;
+    margin: 0;
+}
+.imgButtonRight{
+    /* margin-right: 10px; */
+}
